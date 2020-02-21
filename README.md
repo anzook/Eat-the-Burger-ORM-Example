@@ -1,6 +1,6 @@
 # Eat-the-Burger-ORM-Example
 ### Practice with a scratch ORM to track burgers
-* Deployed Application: (TODO: link)
+* Deployed Application: (https://eatdaburger-ormapp.herokuapp.com/)
 
 This practice application allows a user to track burgers they'd like to and have eaten. Users can add burgers, and those they want to eat show up on the left, and those that theyve 'devored' appear on the right. 
 
@@ -14,7 +14,7 @@ Follow the link to the deployed application above, or
 Download the repo:
 
 Install the node dependencies:
-`npm instal`
+`npm install`
 * express
 * express-handlebars
 * mysql
@@ -26,8 +26,8 @@ Initialize the database and seed if you'd like:
  and then initalize the server through:
 `server.js`
 
-Here is an example of the front end:
-![Mainpage Screenshot Demo](/public/assets/images/Duly_noted_ex.png)
+<!-- Here is an example of the front end:
+![Mainpage Screenshot Demo](/public/assets/images/Duly_noted_ex.png) -->
 
 <!-- ### HTML Routes
 This is a single-page app
@@ -41,8 +41,8 @@ This is a single-page app
 
   * DELETE `/api/burgers/:id` - Deletes burger with matching 'id'  -->
 
-All website assets are contained within the repo (https://github.com/anzook/Duly-Noted)
-
+All website assets are contained within the repo (https://github.com/anzook/Eat-the-Burger-ORM-Example)
+.env should include MYSQL_ROOT_PASS={user's mysql root password}
 
 ## Acknowledgements and Credits
 
